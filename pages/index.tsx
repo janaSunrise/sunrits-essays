@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 import { allEssays } from 'contentlayer/generated';
 import { formatDate } from '@/lib/utils';
 
@@ -18,7 +20,9 @@ const Home = ({ essays }: Props) => {
           <p className="text-md text-gray-500">
             {formatDate(new Date(essay.date))}
           </p>
-          <h1 className="text-xl">{essay.title}</h1>
+          <Link href={essay.slug}>
+            <h1 className="text-xl">{essay.title}</h1>
+          </Link>
         </div>
       ))}
     </div>
