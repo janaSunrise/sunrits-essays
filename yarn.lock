@@ -294,11 +294,6 @@
   resolved "https://registry.yarnpkg.com/@fontsource/dm-sans/-/dm-sans-4.5.9.tgz#a48f9c815728ebb47e1c58e5176a9d4aa6cb25ea"
   integrity sha512-qaFvSBJhoeley1A9myRUUuHbm9sz7ADyC2WodezBzdFSPs2VD/p5WPPwtpVE8b1SglQrOPAnxA7s3fH5zOtiMQ==
 
-"@fontsource/open-sans@^4.5.14":
-  version "4.5.14"
-  resolved "https://registry.yarnpkg.com/@fontsource/open-sans/-/open-sans-4.5.14.tgz#b3e1665c0b3fdfc1f030ded2843749e3cf3a5900"
-  integrity sha512-mBXIIETBlW8q/ocuUN0hyGow2iuf75hQEHQt8R/RJ/HcphVbLg8KB7pHYGbFGDqs75W+SWvTC7JkVeAjT65BuQ==
-
 "@grpc/grpc-js@^1.5.9":
   version "1.8.14"
   resolved "https://registry.yarnpkg.com/@grpc/grpc-js/-/grpc-js-1.8.14.tgz#4fe0f9917d6f094cf59245763c275442b182e9ad"

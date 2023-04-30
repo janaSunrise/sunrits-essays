@@ -10,15 +10,15 @@ interface Props {
 
 const Home = ({ essays }: Props) => {
   return (
-    <div className="max-w-5xl px-16 py-4 mx-auto">
-      <h2 className="text-4xl py-6 font-medium">essays crafted with care</h2>
+    <div className="max-w-5xl px-8 py-4 mx-auto">
+      <h2 className="text-4xl py-4 font-semibold">essays crafted with care</h2>
 
       {essays.map(essay => (
         <div key={essay.slug} className="py-2">
           <p className="text-md text-gray-500">
             {formatDate(new Date(essay.date))}
           </p>
-          <h1 className="text-2xl">{essay.title}</h1>
+          <h1 className="text-xl">{essay.title}</h1>
         </div>
       ))}
     </div>
