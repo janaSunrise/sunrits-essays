@@ -8,21 +8,25 @@ export const Essay = defineDocumentType(() => ({
     title: {
       type: 'string',
       description: 'The title of the essay',
-      required: true,
+      required: true
     },
     date: {
       type: 'date',
       description: 'The date of the essay',
-      required: true,
-    },
+      required: true
+    }
   },
   computedFields: {
     url: {
       type: 'string',
-      resolve: (essay) => `/essays/${essay._raw.flattenedPath}`,
+      resolve: essay => `/essays/${essay._raw.flattenedPath}`
     },
-  },
-}))
+    slug: {
+      type: 'string',
+      resolve: post => post._raw.sourceFileName.replace(/\.mdx$/, '')
+    }
+  }
+}));
 
 export default makeSource({
   contentDirPath: 'essays',

@@ -8,8 +8,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        title: ['DM Sans', 'sans-serif'],
-        sans: ['Open Sans', 'sans-serif']
+        title: ['Open Sans', 'sans-serif'],
+        sans: ['DM Sans', 'sans-serif']
       },
       fontWeight: {
         normal: 600
