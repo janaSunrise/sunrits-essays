@@ -47,7 +47,7 @@ table {
   content: '#';
 }
 
-.prose *:hover>.anchor {
+.prose *:hover > .anchor {
   @apply visible;
 }
 
@@ -69,7 +69,7 @@ table {
   @apply m-0;
 }
 
-.prose> :first-child {
+.prose > :first-child {
   /* Override removing top margin, causing layout shift */
   margin-top: 1em !important;
   margin-bottom: 1em !important;
