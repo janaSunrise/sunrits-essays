@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        title: ['DM Sans', 'sans-serif'],
+        title: ['Poppins', 'sans-serif'],
         sans: ['DM Sans', 'sans-serif']
       }
     }
