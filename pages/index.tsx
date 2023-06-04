@@ -13,7 +13,7 @@ interface Props {
 const Home = ({ essays }: Props) => {
   return (
     <div className="max-w-5xl px-8 py-4 mx-auto">
-      <h2 className="text-3xl pb-4 font-semibold">essays crafted with care</h2>
+      <h2 className="text-2xl pb-4 font-semibold">essays crafted with care</h2>
 
       {essays.map(essay => (
         <div key={essay.slug} className="py-2">

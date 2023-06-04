@@ -23,7 +23,7 @@ const Essay = ({ essay }: Props) => {
 
   return (
     <div className="max-w-5xl px-8 py-4 mx-auto">
-      <h1 className="text-4xl pb-2 font-semibold">{essay.title}</h1>
+      <h1 className="text-3xl pb-2 font-semibold">{essay.title}</h1>
       <hr className="border-2 border-gray-200" />
       <p className="text-md text-gray-500 py-2">
         {formatDate(new Date(essay.date))}

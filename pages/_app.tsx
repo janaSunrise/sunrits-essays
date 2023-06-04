@@ -3,7 +3,6 @@ import { DefaultSeo } from 'next-seo';
 import { config } from '@/next-seo.config';
 import Navbar from '@/components/Navbar';
 
-import '@fontsource/dm-sans';
 import '@fontsource/poppins';
 import '@/styles/globals.css';
 
