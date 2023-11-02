@@ -19,12 +19,12 @@ const Home = ({ essays }: Props) => {
 
       {essays.map(essay => (
         <div key={essay.slug} className="py-2">
-          <p className="text-md text-gray-500">
-            {formatDate(new Date(essay.date))}
-          </p>
           <Link href={essay.slug}>
             <h1 className="text-xl font-medium">{essay.title}</h1>
           </Link>
+          <p className="text-md text-gray-500">
+            {formatDate(new Date(essay.date))}
+          </p>
         </div>
       ))}
     </div>

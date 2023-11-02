@@ -4,7 +4,7 @@ import { config } from '@/next-seo.config';
 import Navbar from '@/components/Navbar';
 
 import '@fontsource/poppins';
-import '@fontsource-variable/karla';
+import '@fontsource-variable/inter';
 import '@/styles/globals.css';
 
 import type { AppProps } from 'next/app';
